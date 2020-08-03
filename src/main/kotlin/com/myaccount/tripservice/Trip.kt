@@ -1,4 +1,3 @@
 package com.myaccount.tripservice
 
-class Trip {
-}
+data class Trip(val name: String)

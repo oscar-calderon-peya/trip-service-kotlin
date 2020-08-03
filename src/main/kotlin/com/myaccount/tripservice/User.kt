@@ -1,14 +1,11 @@
 package com.myaccount.tripservice
 
-import java.util.*
-
 
 class User {
-    private val trips: MutableList<Trip> = ArrayList()
-    private val friends: MutableList<User> =
-        ArrayList()
+    private val trips = mutableListOf<Trip>()
+    private val friends = mutableListOf<User>()
 
-    fun getFriends(): List<User>? {
+    fun getFriends(): List<User> {
         return friends
     }
 
